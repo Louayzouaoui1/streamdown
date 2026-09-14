@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "next build",
-    "dev": "next dev",
+    "build": "node init && next build",
+    "dev": "node init && next dev",
     "postinstall": "fumadocs-mdx",
-    "start": "next start",
+    "start": "node init && next start",
     "translate": "npx @vercel/geistdocs translate"
   },
   "dependencies": {

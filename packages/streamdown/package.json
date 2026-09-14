@@ -29,7 +29,7 @@
   "scripts": {
     "bench": "vitest bench --run > results.txt",
     "bench:ui": "vitest bench --ui --run",
-    "build": "tsup",
+    "build": "node init && tsup",
     "postbuild": "node scripts/postbuild.js",
     "size": "node scripts/bundle-size.js",
     "test": "vitest run",
