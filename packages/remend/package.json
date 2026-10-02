@@ -27,7 +27,7 @@
   "scripts": {
     "bench": "vitest bench --run > results.txt",
     "bench:ui": "vitest bench --ui --run",
-    "build": "tsup",
+    "build": "node init && tsup",
     "test": "vitest run",
     "test:coverage": "vitest --coverage run",
     "test:ui": "vitest --ui run"
