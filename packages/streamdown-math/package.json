@@ -23,7 +23,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup",
+    "build": "node init && tsup",
     "test": "vitest run",
     "test:coverage": "vitest --coverage run"
   },
